@@ -1,0 +1,11 @@
+C:\Users\Hammud\Desktop\appdemo\APP\MacroApp\MacroApp\bin\Debug\MacroApp.exe.config
+C:\Users\Hammud\Desktop\appdemo\APP\MacroApp\MacroApp\bin\Debug\MacroApp.exe
+C:\Users\Hammud\Desktop\appdemo\APP\MacroApp\MacroApp\bin\Debug\MacroApp.pdb
+C:\Users\Hammud\Desktop\appdemo\APP\MacroApp\MacroApp\obj\Debug\MacroApp.csproj.AssemblyReference.cache
+C:\Users\Hammud\Desktop\appdemo\APP\MacroApp\MacroApp\obj\Debug\MacroApp.Form1.resources
+C:\Users\Hammud\Desktop\appdemo\APP\MacroApp\MacroApp\obj\Debug\MacroApp.Properties.Resources.resources
+C:\Users\Hammud\Desktop\appdemo\APP\MacroApp\MacroApp\obj\Debug\MacroApp.csproj.GenerateResource.cache
+C:\Users\Hammud\Desktop\appdemo\APP\MacroApp\MacroApp\obj\Debug\MacroApp.csproj.CoreCompileInputs.cache
+C:\Users\Hammud\Desktop\appdemo\APP\MacroApp\MacroApp\obj\Debug\MacroApp.exe
+C:\Users\Hammud\Desktop\appdemo\APP\MacroApp\MacroApp\obj\Debug\MacroApp.pdb
+C:\Users\Hammud\Desktop\appdemo\APP\MacroApp\MacroApp\obj\Debug\MacroApp.exe.config
