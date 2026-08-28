@@ -53,6 +53,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.MacroTimer = new System.Windows.Forms.Timer(this.components);
             this.RecordTimer = new System.Windows.Forms.Timer(this.components);
+            this.LBLgithub = new System.Windows.Forms.Label();
+            this.ResetBTN = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numDelay)).BeginInit();
             this.ActionsGB.SuspendLayout();
@@ -238,9 +240,9 @@
             // 
             this.HotkeyLB.AutoSize = true;
             this.HotkeyLB.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.HotkeyLB.Location = new System.Drawing.Point(435, 404);
+            this.HotkeyLB.Location = new System.Drawing.Point(440, 404);
             this.HotkeyLB.Name = "HotkeyLB";
-            this.HotkeyLB.Size = new System.Drawing.Size(59, 15);
+            this.HotkeyLB.Size = new System.Drawing.Size(57, 15);
             this.HotkeyLB.TabIndex = 18;
             this.HotkeyLB.Text = "F6 = Play";
             // 
@@ -248,9 +250,9 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(563, 404);
+            this.label1.Location = new System.Drawing.Point(553, 404);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(59, 15);
+            this.label1.Size = new System.Drawing.Size(85, 15);
             this.label1.TabIndex = 19;
             this.label1.Text = "F7 = Stop Play";
             // 
@@ -258,9 +260,9 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(97, 404);
+            this.label2.Location = new System.Drawing.Point(13, 404);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(72, 15);
+            this.label2.Size = new System.Drawing.Size(81, 15);
             this.label2.TabIndex = 20;
             this.label2.Text = "F10 = Record";
             // 
@@ -268,17 +270,42 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(196, 404);
+            this.label3.Location = new System.Drawing.Point(311, 404);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(88, 15);
+            this.label3.Size = new System.Drawing.Size(91, 15);
             this.label3.TabIndex = 21;
             this.label3.Text = "F11 = Stop Rec";
+            // 
+            // LBLgithub
+            // 
+            this.LBLgithub.AutoSize = true;
+            this.LBLgithub.Location = new System.Drawing.Point(573, 507);
+            this.LBLgithub.Name = "LBLgithub";
+            this.LBLgithub.Size = new System.Drawing.Size(75, 13);
+            this.LBLgithub.TabIndex = 22;
+            this.LBLgithub.Text = "BY : soemboel";
+            this.LBLgithub.Click += new System.EventHandler(this.LBLgithub_Click);
+            // 
+            // ResetBTN
+            // 
+            this.ResetBTN.BackColor = System.Drawing.Color.Red;
+            this.ResetBTN.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResetBTN.ForeColor = System.Drawing.Color.Transparent;
+            this.ResetBTN.Location = new System.Drawing.Point(501, 81);
+            this.ResetBTN.Name = "ResetBTN";
+            this.ResetBTN.Size = new System.Drawing.Size(137, 34);
+            this.ResetBTN.TabIndex = 23;
+            this.ResetBTN.Text = "RESET ALL !!!";
+            this.ResetBTN.UseVisualStyleBackColor = false;
+            this.ResetBTN.Click += new System.EventHandler(this.ResetBTN_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(656, 529);
+            this.Controls.Add(this.ResetBTN);
+            this.Controls.Add(this.LBLgithub);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -300,7 +327,7 @@
             this.Controls.Add(this.DelayLB);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "MacroApp";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -337,6 +364,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Timer MacroTimer;
         private System.Windows.Forms.Timer RecordTimer;
+        private System.Windows.Forms.Label LBLgithub;
+        private System.Windows.Forms.Button ResetBTN;
     }
 }
 

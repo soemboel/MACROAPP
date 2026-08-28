@@ -1,7 +1,8 @@
-﻿using MacroApp.Models;
+using MacroApp.Models;
 using MacroApp.Services;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -346,6 +347,34 @@ namespace MacroApp
                 this.Handle,
                 HotkeyService.RECORD_STOP_HOTKEY,
                 Keys.F11);
+        }
+
+        private void LBLgithub_Click(object sender, EventArgs e)
+        {
+            Process.Start(new ProcessStartInfo
+            {
+                FileName = "https://github.com/soemboel",
+                UseShellExecute = true
+            });
+        }
+
+        private void ResetBTN_Click(object sender, EventArgs e)
+        {
+            // Stop any running macro playback
+            if (macroPlayer.IsRunning)
+                macroPlayer.Stop();
+
+            // Stop recording if active
+            if (macroRecorder.IsRecording)
+                macroRecorder.Stop();
+
+            // Clear recorded actions and refresh UI
+            actions.Clear();
+            RefreshActionList();
+
+            // Reset UI state
+            SetRecordingUi(false);
+            StatusLB.Text = "Stopped";
         }
     }
 }

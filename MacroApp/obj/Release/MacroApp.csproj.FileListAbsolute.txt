@@ -8,3 +8,4 @@ C:\Users\Hammud\Desktop\appdemo\APP\MacroApp\MacroApp\obj\Release\MacroApp.cspro
 C:\Users\Hammud\Desktop\appdemo\APP\MacroApp\MacroApp\obj\Release\MacroApp.csproj.CoreCompileInputs.cache
 C:\Users\Hammud\Desktop\appdemo\APP\MacroApp\MacroApp\obj\Release\MacroApp.exe
 C:\Users\Hammud\Desktop\appdemo\APP\MacroApp\MacroApp\obj\Release\MacroApp.pdb
+C:\Users\Hammud\Desktop\appdemo\APP\MacroApp\MacroApp\obj\Release\MacroApp.exe.config
